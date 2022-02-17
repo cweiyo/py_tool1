@@ -1,0 +1,13 @@
+b64.py
+base64格式转成jpg格式，方便查看使用
+
+delete_invalid_img.py
+在gary给到的人脸数据中是包含多个项目，只想要其中的一部分，将长宽不合适的图片删除掉
+
+generate_groupid.py
+进行肢体数据标注时，不标groupid，有head用head隔开每个行人，没有head在任意处标split作为分隔行人的标记，标记完一个人再到下一个人，基于这个规则，自动生成groupid
+
+show_pic.py
+显示图像，可显示图像每个像素坐标和rgb值
+
+
